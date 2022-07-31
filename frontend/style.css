@@ -1,0 +1,30 @@
+body{
+     background-color:whitesmoke;
+     border: 2px solid;
+     border-style: none;
+     border-color: black;
+}
+.select {
+     color: rgb(152, 69, 86);
+     cursor: pointer;
+}
+
+form {
+     width: 40%;
+     margin: auto;
+     border: 2px solid black;
+     border-radius: 7px;
+     padding: 30px;
+}
+
+h1 {
+     text-align: center;
+     padding-bottom: 10px;
+}
+.btn{
+     width:auto;
+     margin-top:3px;
+}
+.select{
+     margin:4px;
+}
