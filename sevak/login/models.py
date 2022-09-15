@@ -10,6 +10,7 @@ class CreateLogin(models.Model):
      City=models.CharField(max_length=30)
      Dob=models.DateField(auto_now_add=False,auto_now=False,blank=True)
      Pincode= models.IntegerField(blank=True, null=True)
+     CourseId=models.CharField(max_length=30,null=True)
      Course=models.CharField(max_length=30)
      Email=models.CharField(max_length=50)
      

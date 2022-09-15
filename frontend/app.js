@@ -8,7 +8,8 @@ submitButton.addEventListener("click", () => {
   const state = document.querySelector(".state").value;
   const city = document.querySelector(".city").value;
   const Dob = document.querySelector(".dob").value;
-  const pinCode = document.querySelector(".pincode").value;
+  const pinCode = document.querySelector(".pincode").value; 
+  const courseId = document.querySelector(".course_id").value;
   const course = document.querySelector(".course").value;
   const Email = document.querySelector(".emailid").value;
 

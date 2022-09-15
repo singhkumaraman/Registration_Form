@@ -11,6 +11,7 @@ def create_user(request):
   City=request.GET['city']
   Dob=request.GET['Dob']
   Pincode=request.GET['pinCode']
+  CourseId=request.GET['courseId']
   Course=request.GET['course']
   Email=request.GET['Email']
  
@@ -24,6 +25,7 @@ def create_user(request):
     City=City,
     Dob=Dob,
     Pincode=Pincode,
+    CourseId=CourseId,
     Course=Course,
     Email=Email
   )

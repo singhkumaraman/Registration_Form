@@ -10,6 +10,8 @@ body{
 }
 
 form {
+     font-weight: bolder;
+     background-color:#ADD8E6;
      width: 40%;
      margin: auto;
      border: 2px solid black;
